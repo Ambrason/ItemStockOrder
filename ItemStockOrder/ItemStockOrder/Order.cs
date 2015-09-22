@@ -8,6 +8,7 @@ namespace ItemStockOrder
 {
     public class Order
     {
-        //todo: lägg till properties och metoder
+        public Item Item { get; set; }
+        public DateTime Created { get; set; }
     }
 }
