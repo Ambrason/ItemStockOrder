@@ -8,6 +8,9 @@ namespace ItemStockOrder
 {
     class Item
     {
-        // Grej...
-    }
+        public string Name { get; set; }
+        public float Price { get; set; }
+        public string ArticleNum { get; set; }
+        public bool Circumcised { get;set;}
+    } 
 }
