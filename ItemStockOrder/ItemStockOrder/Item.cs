@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ItemStockOrder
 {
-    class Item
+    public class Item
     {
         public string Name { get; set; }
         public float Price { get; set; }
