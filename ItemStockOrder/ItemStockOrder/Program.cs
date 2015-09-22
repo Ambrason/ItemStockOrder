@@ -11,7 +11,7 @@ namespace ItemStockOrder
         static void Main(string[] args)
         {
             var stock = new Stock();
-            stock.Items.Add(new Item());
+            stock.Items.Add(new Item() { Name = "", ArticleNum = "0", Price = 0, Circumcised = true });
 
             Console.WriteLine("Number of items in stock: " + stock.NumberOfItems);
             Console.ReadKey();
