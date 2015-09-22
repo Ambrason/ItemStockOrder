@@ -10,6 +10,7 @@ namespace ItemStockOrder
     {
         public string Name { get; set; }
         public ICollection<Item> Items { get; set; }
+        public int NumberOfItems { get { return Items.Count(); } }
 
         public Stock()
         {

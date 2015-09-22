@@ -13,6 +13,7 @@ namespace ItemStockOrder
             var stock = new Stock();
             stock.Items.Add(new Item());
 
+            Console.WriteLine("Number of items in stock: " + stock.NumberOfItems);
             Console.ReadKey();
         }
     }
