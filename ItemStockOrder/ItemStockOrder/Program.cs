@@ -10,6 +10,10 @@ namespace ItemStockOrder
     {
         static void Main(string[] args)
         {
+            var stock = new Stock();
+            stock.Items.Add(new Item());
+
+            Console.ReadKey();
         }
     }
 }
